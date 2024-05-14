@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "ostream": "cpp"
+    },
+    "files.watcherExclude": {
+        "**/target": true
+    }
+}

@@ -1,0 +1,31 @@
+construção do crivo sem novo vetor:
+
+real    0m0,068s
+user    0m0,066s
+sys     0m0,003s
+
+construção do crivo com novo vetor:
+
+real    0m0,094s
+user    0m0,093s
+sys     0m0,001s
+
+apenas 26 ms a mais, consideravel, mas talvez valha a pena
+
+997920
+
+int k = 0;
+
+for (int d = 1; d*d <= n, d++) {
+    if (n % d == 0) {
+        k++;
+
+        if (d != n / d) k++;
+    }
+}
+
+se b | a -> a = b * c, logo, b e c dividem a, além do próprio a.
+
+12 | 12 2
+6 | 6 2
+3 | 3
