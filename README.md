@@ -1,1 +1,1 @@
-# Programa-o-Competitiva
+#Códigos de programação competitiva
